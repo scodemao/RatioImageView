@@ -13,6 +13,7 @@ import com.github.mao.R;
  * Created by maoweiwei on 15/11/26.
  */
 public class MMRatioImageView extends ImageView {
+
     protected float mWHRatio = 1.0f;
     protected boolean resizeEnable;
 
@@ -33,7 +34,6 @@ public class MMRatioImageView extends ImageView {
                 false);
         a.recycle();
     }
-
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
